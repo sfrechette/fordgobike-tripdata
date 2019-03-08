@@ -8,5 +8,6 @@ for f in $(ls *.csv); do
     FILESUBSTR4=$(echo $f | cut -d'.' -f 2) 
     FILESTR="${FILESUBSTR2}-${FILESUBSTR3}-${FILESUBSTR1}.${FILESUBSTR4}"   
     mv $f $FILESTR
-    echo "Done: $FILESTR"
+    echo "Done renaming: $f"
 done
+exit 0
