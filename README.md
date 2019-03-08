@@ -11,7 +11,8 @@ In a nutshell these scripts downloads fordgobike-tripdata from an AWS S3 bucket,
 ### Depencies:      
 In order to download files from the AWS S3 bucket you need to install and configure the AWS CLI. Please refer to the following documentation https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html        
 
-Master file is named **ingest.sh** which executes the following files in order:
+### Bash scripts: 
+Master file is **ingest.sh** which executes the following bash scripts in order:
 
 * **download.sh** -> download(s) file(s) from the following AWS S3 bucket s3://fordgobike-data to the /data directory. If no specific file (paramter) is passed, it will download all files from the S3 bucket.
 * **unzip.sh** -> inflate(s) zip file(s) downloaded from the AWS S3 bucket.
