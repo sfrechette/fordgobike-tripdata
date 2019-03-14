@@ -1,6 +1,7 @@
 #!/bin/bash
+FILE=$1
 
-bash download.sh
+bash download.sh $1
 bash unzip.sh
 bash rename.sh
 bash gzip.sh
