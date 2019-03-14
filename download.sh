@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE=$1
+
 S3BUCKET="s3://fordgobike-data"
 
 mkdir -p data
