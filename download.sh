@@ -1,6 +1,6 @@
 #!/bin/bash
 
-S3BUCKET="s3://fordgobike-data"
+S3BUCKET="s3://baywheels-data"
 
 mkdir -p data
 cd data  
